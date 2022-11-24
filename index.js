@@ -22,3 +22,14 @@ while (current < high) {
 }
 
 //Fork the previous  REPL and print out all multiples of 5 between 1200 and 1300.
+const baseNumberOperand = 1200;
+const secondNumberOperand = 1300;
+let currentSteps = baseNumberOperand;
+
+const stepOfFive = 5;
+console.log(`Listing all multiples of 5 from ${baseNumberOperand} up to ${secondNumberOperand}.`);
+currentSteps = baseNumberOperand;
+while (currentSteps < secondNumberOperand) {
+  console.log(currentSteps);
+  currentSteps += stepOfFive; // Increment by step
+}
