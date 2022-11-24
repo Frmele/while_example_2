@@ -20,3 +20,5 @@ while (current < high) {
   console.log(current);
   current += step; // Increment by step
 }
+
+//Fork the previous  REPL and print out all multiples of 5 between 1200 and 1300.
